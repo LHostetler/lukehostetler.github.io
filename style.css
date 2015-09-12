@@ -1,0 +1,16 @@
+body {
+  border: 0;
+  padding: 0;
+}
+.content {
+  background-color: #FAFAFA;
+  margin: 200px auto;
+}
+h1 {
+  font-family: Raleway, Calibri;
+}
+.main-nav {
+  background-color: #6BBCF2;
+  height: 50px;
+  position: fixed;
+}
