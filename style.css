@@ -1,16 +1,77 @@
+/* COMMON */
 body {
-  border: 0;
-  padding: 0;
+	border: 0;
+	font-family: Calibri;
+	margin: 0;
+	padding: 0;
 }
-.content {
-  background-color: #FAFAFA;
-  margin: 200px auto;
+.big-box {
+	background-color: #1C1C1C;
+	border: 1px solid #6E6E6E;
+	border-radius: 3px;
+	color: white;
+	margin: 100px auto;
+	padding: 20px;
+	width: 500px
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* HEADING */
+.intro-text {
+	font-size: 1.3em;
 }
 h1 {
-  font-family: Raleway, Calibri;
+	font-family: Raleway, Calibri;
+	margin: 0;
+	padding: 0;
 }
-.main-nav {
-  background-color: #6BBCF2;
-  height: 50px;
-  position: fixed;
+
+
+/* NAVIGATION */
+.nav-resources {
+	color: white;
+}
+.resources-item {
+	background-color: white;
+	color: #1C1C1C;
+	font-family: Raleway;
+	font-size: 1.3em;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	text-align: center;
+
+	transition: 0.1s;
+}
+.resources-item:hover {
+	background-color: #98B550;
+}
+
+
+/* SOCIAL */
+.nav-social {
+	background-color: #1C1C1C;
+	display: flex;
+	margin-top: 10px;
+}
+.social-item {
+	background-color: #FFA500;
+	border: 1px solid #FFA500;
+	font-size: 1.2em;
+	padding: 10px;
+
+	transition: 0.1s;
+}
+.social-item:hover {
+	border-color: #ED9B05;
+}
+
+
+/* FOOTER */
+.copyright {
+	color: #1C1C1C;
+	text-align: center;
 }
