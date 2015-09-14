@@ -55,18 +55,23 @@ h1 {
 .nav-social {
 	background-color: #1C1C1C;
 	display: flex;
+	font-size: 1.2em;	
 	margin-top: 10px;
 }
 .social-item {
 	background-color: #FFA500;
 	border: 1px solid #FFA500;
-	font-size: 1.2em;
-	padding: 10px;
+	flex-grow: 1;
+	font-family: Arial Narrow;
+	text-align: center;
 
 	transition: 0.1s;
 }
 .social-item:hover {
-	border-color: #ED9B05;
+	border-color: #DE9309;
+}
+.twitter, .linkedin, .github {
+	padding: 7px;
 }
 
 
