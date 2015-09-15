@@ -1,44 +1,77 @@
 /* COMMON */
 body {
+	background: #6E6E6E;
+  	background: radial-gradient(#648880, #293f50);
 	border: 0;
-	font-family: Calibri;
+	font-family: Raleway, Calibri, Arial;
 	margin: 0;
+	overflow: hidden;
 	padding: 0;
-}
-.big-box {
-	background-color: #1C1C1C;
-	border: 1px solid #6E6E6E;
-	border-radius: 3px;
-	color: white;
-	margin: 100px auto;
-	padding: 20px;
-	width: 500px
+	width: 100%;
 }
 a {
 	color: white;
 	text-decoration: none;
 }
-
-
-/* HEADING */
-.intro-text {
-	font-size: 1.3em;
-}
 h1 {
-	font-family: Raleway, Calibri;
 	margin: 0;
 	padding: 0;
 }
-
-
-/* NAVIGATION */
-.nav-resources {
+.intro-text {
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+.page-common {
+	background-color: #1C1C1C;
+	border-radius: 3px;
 	color: white;
+
+	margin: 10% auto 0 auto;
+	left: 0;
+	right: 0;
+	top: 0
+	bottom: 0;
+
+	padding: 15px;
+	position: absolute;
+	width: 500px
+}
+.copyright {
+	background-color: white;
+	bottom: 0;
+	color: #1C1C1C;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+#page-about, #page-tools, #page-snippets {
+	display: none;
+}
+
+/* BACK BUTTON */
+.back-button {
+	background-color: purple;
+	color: white;
+	float: right;
+	height: 20px;
+	padding: 10px;
+	text-align: center;
+	width: 130px;
+}
+.ion-ios-arrow-left {
+	margin-right: 5px;
+}
+
+/* MAIN PAGE */
+#page-main {
+	height: 350px;
 }
 .resources-item {
 	background-color: white;
 	color: #1C1C1C;
-	font-family: Raleway;
 	font-size: 1.3em;
 	margin: 10px 0 0 0;
 	padding: 10px;
@@ -53,30 +86,23 @@ h1 {
 
 /* SOCIAL */
 .nav-social {
-	background-color: #1C1C1C;
-	display: flex;
-	font-size: 1.2em;	
-	margin-top: 10px;
+	margin: 10px auto 0 auto;
 }
 .social-item {
 	background-color: #FFA500;
-	border: 1px solid #FFA500;
-	flex-grow: 1;
-	font-family: Arial Narrow;
+	font-size: 1.2em;
+	float: left;
 	text-align: center;
+	width: 33.3%;
 
 	transition: 0.1s;
 }
 .social-item:hover {
-	border-color: #DE9309;
+	background-color: #F29513;
 }
 .twitter, .linkedin, .github {
 	padding: 7px;
 }
-
-
-/* FOOTER */
-.copyright {
-	color: #1C1C1C;
-	text-align: center;
+.icon {
+	padding-top: 5px;
 }
