@@ -2,49 +2,104 @@
   <head>
     <link href="style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <title>Luke Hostetler</title>
   </head>
   <body>
-    <div class="big-box">
-      <h1>Luke Hostetler</h1>
+    <div id="page-main" class="page-common">
+      <h1>Office Ally</h1>
       <div class="intro-text">
-        Web developer. HTML5/CSS3/JavaScript.
+        Affordable tools for any office.
       </div>
-      <div class="nav-resources">
-        <a href="about.html">
-          <div class="resources-item about">ABOUT
-          </div>
-        </a>
-        <a href="https://luhost.ghost.io/">
+      <div class="nav-main">
+        <a class="resource-item" ="blog" href="https://luhost.ghost.io/">
           <div class="resources-item blog">BLOG
           </div>
         </a>
-        <a href="tools.html">
-          <div class="resources-item tools">TOOLS
+        <a id="about" href="#">
+          <div class="resources-item about">ABOUT
           </div>
         </a>
-        <a href="snippets.html">
+        <a id="tools" href="#">
+          <div class="resources-item tools">TOOLKIT
+          </div>
+        </a>
+        <a id="snippets" href="#" onclick="">
           <div class="resources-item snippets">SNIPPETS
           </div>
         </a>
       </div>
       <div class="nav-social">
-        <div class="social-item">
-          <a href="https://twitter.com/lukeasinyes">
-            <div class="twitter">twitter</div>
-          </a>
-        </div>
-        <div class="social-item">
-          <a href="">
-            <div class="linkedin">linkedin</div>
-          </a>
-        </div>
-        <div class="social-item">
-          <a href="https://github.com/LukeHostetler">
-            <div class="github">github</div>
-          </a>
-        </div>
+        <a class="social-item" href="https://twitter.com/lukeasinyes">
+          <div class="icon ion-social-twitter"></div>
+          <div class="twitter">twitter</div>
+        </a>
+        <a class="social-item" href="">
+          <div class="icon ion-social-linkedin"></div>
+          <div class="linkedin">linkedin</div>
+        </a>
+        <a class="social-item" href="https://github.com/LukeHostetler">
+          <div class="icon ion-social-octocat"></div>
+          <div class="github">github</div>
+        </a>
       </div>
-    </div><!-- main-nav -->
+    </div><!-- page-nav -->
     <div class="copyright">&copy; Luke Hostetler 2015</div>
+    <div id="page-about" class="page-common">
+      <h1>About</h1>
+      <div class="intro-text">
+        Thanks for stopping by.
+      </div>
+      <div class="intro-text">
+        I've been programming for the web since November of 2013, albeit my first applications were a little more confused and haphazard than they are now.
+      </div>
+      <div class="intro-text">
+        In June of 2014, I attended The Tech Academy and earned my Microsoft MTA in December of that year.
+      </div>
+      <div class="intro-text">
+        My development doctrines can be summarized as pragmatic craftsmanship: If it helps me achieve the goal more efficiently, I'm all in.
+      </div>
+      <a class="back-button">
+        <span class="icon ion-ios-arrow-left"></span>
+        <span>Back</span>
+      </a>
+    </div>
+    <div id="page-tools" class="page-common">
+      <h1>Toolkit</h1>
+      <div class="intro-text">
+        Sublime Text 3
+      </div>
+      <div class="intro-text">
+        Visual Studio 2013
+      </div>
+      <div class="intro-text">
+        Fiddler
+      </div>      
+      <div class="intro-text">
+        Chrome
+      </div>
+      <div class="intro-text">
+        Tortoise SVN
+      </div>
+      <a class="back-button">
+        <span class="icon ion-ios-arrow-left"></span>
+        <span>Back</span>
+      </a>
+    </div>
+    <div id="page-snippets" class="page-common">
+      <h1>Snippets</h1>
+      <div class="intro-text">
+        Assorted cuts from around the web, some of them too small to blog about.
+      </div>
+      <div class="intro-text">
+        All of these target web development using HTML5/CSS3 and modern JavaScript standards. Performance is great, output is greater.
+      </div>
+      <a class="back-button">
+        <span class="icon ion-ios-arrow-left"></span>
+        <span>Back</span>
+      </a>
+    </div>
+    <script type="text/javascript" src="app.js" ></script>
   </body>
 </html>
